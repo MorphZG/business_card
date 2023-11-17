@@ -1,0 +1,194 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.UI-container {
+    background-color: #E5F9E0;
+    border-radius: 20px;
+    max-width: 1200px;
+    width: 100%;
+    max-height: 700px;
+    height: 100%;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.contact-section {
+    background-color: #7D1128;
+    border-radius: 20px 0 0 20px;
+    width: 33.3%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+}
+
+address {
+    margin-left: 40px;
+    margin-top: 350px;
+    font-style: normal;
+}
+
+dt {
+    font-weight: 700;
+    padding-top: 20px;
+    line-height: 1.5;
+}
+
+dd {
+    margin: 0;
+}
+
+#email::before {
+    content: url(./assets/icons/email-icon.svg);
+    margin-right: 5px;
+}
+
+#phone::before {
+    content: url(./assets/icons/phone-icon.svg);
+    margin-right: 5px;
+}
+
+#separator {
+    background-color: #E5F9E0;
+    position: absolute;
+    height: 32px;
+    width: 100%;
+    border: 0;
+}
+
+.social-section {
+    position: absolute;
+    font-weight: 700;
+    margin-left: 40px;
+    bottom: 50px;
+}
+
+.social-icons .icon {
+    padding-right: 20px;
+    left: 20px;
+}
+
+.icon {
+    transition: opacity 0.3s ease;
+}
+
+.icon:hover {
+    opacity: 0.7;
+}
+
+#profile-img {
+    position: absolute;
+    max-height: 80%;
+    left: 280px;
+    top: 80px;
+    z-index: 1;
+    transition: all 0.3s;
+}
+
+#profile-img:hover {
+  transform: scale(1.0) rotate(10deg);
+}
+.info-section {
+    color: #071013;
+    position: absolute;
+    left: 650px;
+    top: 100px;
+    padding: 0 50px 200px 0;
+    
+}
+
+#h1-first-word {
+    font-size: 46px;
+    color: #7d1128;
+    margin: 0;
+} 
+
+#h1-second-word {
+    font-size: 46px;
+    color: #071013;
+    margin: 0;
+}
+
+.subtitle {
+    font-size: 19;
+}
+
+.subtitle-bullet {margin: 8px;}
+
+li {
+    padding-bottom: 10px;
+}
+
+li::marker {
+    font-size: 0.8rem;
+}
+
+.sticker-shape1 {
+    z-index: 2;
+    background-color: #7d1128;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 280px;
+    top: 80px;
+}
+
+.sticker-shape2 {
+    z-index: 2;
+    background-color: #E5F9E0;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 400px;
+    bottom: 50px;
+}
+
+.sticker-shape3 {
+    z-index: 2;
+    background-color: #E5F9E0;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 570px;
+    top: 80px;
+}
+
+.red-shape4 {
+    z-index: 0;
+    background-color: #7d1128;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    left: 580px;
+    bottom: 50px;
+    border-radius: 100%;
+}
+
+.green-shape5 {
+    z-index: 0;
+    background-color: #7d1128;
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    border-radius: 0px 20px 0 120px;
+
+}
+
+.hover-rotate {
+  overflow: hidden;
+  margin: 8px;
+  min-width: 240px;
+  max-width: 320px;
+  width: 100%;
+}
