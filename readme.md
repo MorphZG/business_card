@@ -4,7 +4,7 @@
 
 ## Project brief
 
-Craft a dynamic digital **Business Card** tailored for the modern developer. It's not just an ordinary card, but a vibrant reflection of you. Set the stage for your digital presence.
+Digital business card, where i was trying to improve my frontend skills. Working with CSS and HTML only. Simple animation is added to central image so it tilts on mouse over. While looking for a simple and fun projects to keep my focus on learning i have found it to be just that, simple and fun to do. Would be good to improve the animation and allow for user input to make it more interactive.
 
 ### Requirements
 
